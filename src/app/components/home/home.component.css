@@ -35,7 +35,6 @@
     margin-right: 100px;
     margin-top: -120px;
 }
-
 .btn1,
 .btn2 {
     font-family: "Press Start 2P", system-ui;
@@ -43,10 +42,12 @@
     font-style: normal;
     background: #fff;
     color: #000;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .btn1 {
@@ -56,6 +57,11 @@
     margin-right: 200px;
     border-radius: 15px;
     width: 130px;
+    transition: .3s ease-out;
+}
+
+.btn1:hover {
+    background-color: #ffb300c2;
 }
 
 .btn2 {
@@ -63,7 +69,9 @@
     background: #FFD700;
     border-radius: 15px;
     width: 120px;
+    text-align: center;
 }
+
 
 .hero_Stars {
     font-family: "Press Start 2P", system-ui;
