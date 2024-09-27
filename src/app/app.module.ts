@@ -10,16 +10,6 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ContactComponent } from './components/contact/contact.component';
 
-
-const router: Routes = [
-  {path: "", component: HomeComponent},
-  {path: "contact", component: ContactComponent},
-  {path: "about", component: AboutComponent},
-  {path: "work", component: WorkComponent},
-  {path: "home", component: HomeComponent},
-]
-
-
 @NgModule({
   declarations: [
     AppComponent,
