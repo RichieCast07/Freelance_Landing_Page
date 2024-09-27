@@ -99,6 +99,13 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+          "repo": "https://github.com/RichieCast07/Freelance_Landing_Page.git",
+          "baseHref": "https://RichieCast07.github.io/Freelance_Landing_Page/"
+          }
         }
       }
     }

@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --configuration production --base-href '/Freelance-Landing-Page/' && gh-pages -d dist/landing-page"
   },
   "private": true,
   "dependencies": {
@@ -27,6 +28,7 @@
     "@angular/cli": "^18.2.5",
     "@angular/compiler-cli": "^18.2.0",
     "@types/jasmine": "~5.1.0",
+    "angular-cli-ghpages": "^2.0.1",
     "jasmine-core": "~5.2.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
@@ -34,5 +36,17 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.5.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichieCast07/Freelance_Landing_Page.git"
+  },
+  "author": "RichieCast07",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RichieCast07/Freelance_Landing_Page/issues"
+  },
+  "homepage": "https://github.com/RichieCast07/Freelance_Landing_Page#readme"
 }
