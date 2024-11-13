@@ -47,6 +47,7 @@ html, body {
     font-weight: 100;
     font-style: normal;
     color: rgb(0, 0, 0);
+    cursor: pointer;
     text-decoration: none;
 }
 

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-    background-image: url('../../../../public/assets/images/start.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,6 +9,7 @@ body {
 }
 
 .work-container {
+    background-image: url('../../../../public/assets/images/start.jpg');
     text-align: center;
     padding: 20px;
     min-height: 180vh;
@@ -28,7 +28,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    background: rgba(0, 0, 0, 0.7);
+    background-color: rgba(58, 55, 55, 0.842);
     border-radius: 20px;
     padding: 20px;
     width: 90%;

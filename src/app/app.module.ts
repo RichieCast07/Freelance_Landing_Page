@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './standalone/footer/footer.component';
-import { NavbarComponent } from './standalone/navbar/navbar.component';
+import { NavbarComponent } from "./standalone/navbar/navbar.component";
+import { FooterComponent } from "./standalone/footer/footer.component";
 
 
 @NgModule({
@@ -14,10 +14,11 @@ import { NavbarComponent } from './standalone/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
+    RouterModule,
     AppRoutingModule,
-    FooterComponent,
-    NavbarComponent
-  ],
+    NavbarComponent,
+    FooterComponent
+],
   providers: [],
   bootstrap: [AppComponent]
 })

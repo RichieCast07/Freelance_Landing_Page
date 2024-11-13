@@ -2,7 +2,6 @@
 
 body {
     background-color: black;
-    background-image: url('../../../../public/assets/images/start.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,13 +13,14 @@ body {
 .contact-form-container {
     display: flex;
     justify-content: center;
+    background-image: url('../../../../public/assets/images/start.jpg');
     align-items: center;
     min-height: 100vh;
     padding: 20px;
 }
 
 .contact-form {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(58, 55, 55, 0.842);
     padding: 20px 30px;
     border-radius: 20px;
     width: 500px;
