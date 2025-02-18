@@ -1,4 +1,4 @@
-# LandingPage  2.o
+# LandingPage  2.0 Prueba WebHook
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
 
